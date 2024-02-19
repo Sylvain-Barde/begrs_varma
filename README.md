@@ -18,10 +18,11 @@ The release provides zipped versions of the following folders. These contain all
 - `/figures`: contains the figures used in the paper
 - `/models`: contains the saved trained BEGRS surrogate models and their associated posterior estimates
 - `/sbc`: contains the results of the SBC diagnostic
+- `/simData`: contains the simulated VAR/VARMA data
 
 ## Run sequence:
 
-The various scripts should be run in the following order, as the outputs of earlier scripts for the inputs of later ones. To run a later file (e.g. output generation) without running an earlier file (e.g. estimation), use the folders provided in the release as the source of the intermediate inputs. Files within a subsection can be run in any order.
+The various scripts should be run in the following order, as the outputs of earlier scripts for the inputs of later ones. To run a later file (e.g. output generation) without running an earlier file (e.g. estimation), use the folders provided in the release as the source of the intermediate inputs.
 
 ### 1. Generate simulation data
 

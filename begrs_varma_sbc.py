@@ -3,7 +3,7 @@
 Created on Mon Dec  4 09:43:00 2023
 
 This script runs a simulated Bayesian computing diagnostic on a trained BEGRS
-model on The full simulated VAR/VARMA testing data.
+model on the full simulated VAR/VARMA testing data.
 
 @author: Sylvain Barde, University of Kent
 """
