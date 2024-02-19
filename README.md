@@ -15,9 +15,9 @@ Note: the files were run using GPU-enabled HPC nodes, therefore any attempt at r
 The release provides zipped versions of the following folders. These contain all the intermediate results of the scripts, so that the outputs of the paper (i.e. figures) can be generated directly from them, without requiring a full re-run of the entire analysis.
 
 - `/abc_smc`: contains the results of the ABC-SMC estimations.
-- `figures`: contains the figures used in the paper
-- `models`: contains the saved trained BEGRS surrogate models and their associated posterior estimates
-- `sbc`: contains the results of the SBC diagnostic
+- `/figures`: contains the figures used in the paper
+- `/models`: contains the saved trained BEGRS surrogate models and their associated posterior estimates
+- `/sbc`: contains the results of the SBC diagnostic
 
 ## Run sequence:
 
