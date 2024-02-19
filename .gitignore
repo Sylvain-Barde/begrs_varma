@@ -1,6 +1,13 @@
 # Shell scripts used for running script on HPC GPUs
 *.sh
 
+# Directories containing simulations/results (too large for direct push)
+abc_smc/
+figures/
+models/
+sbc/
+simData/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
