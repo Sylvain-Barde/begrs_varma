@@ -8,11 +8,20 @@ Running replication files require:
 - The `begrs` toolbox with dependencies installed.
 - Additional packages specified in `requirements_extra.txt`
 
-Note: the files were run using GPU-enabled HPC nodes, therefore any attempt at replication should take into account this computational requirement. This is particularly the case for the SBC analysis, which is time-consuming even on an HPC node.
+Note: the files were run using GPU-enabled HPC nodes, therefore any attempt at replication should take into account this computational requirement. This is particularly the case for the SBC analysis, which is time-consuming even on an HPC node. The files are provided for the sake of transparency and replication, and all results are provided in the associated release (see below).
+
+## Release contents
+
+The release provides zipped versions of the following folders. These contain all the intermediate results of the scripts, so that the outputs of the paper (i.e. figures) can be generated directly from them, without requiring a full re-run of the entire analysis.
+
+- `/abc_smc`: contains the results of the ABC-SMC estimations.
+- `figures`: contains the figures used in the paper
+- `models`: contains the saved trained BEGRS surrogate models and their associated posterior estimates
+- `sbc`: contains the results of the SBC diagnostic
 
 ## Run sequence:
 
-The various scripts should be run in the following order, as the outputs of earlier scripts for the inputs of later ones. Files within a subsection can be run in any order.
+The various scripts should be run in the following order, as the outputs of earlier scripts for the inputs of later ones. To run a later file (e.g. output generation) without running an earlier file (e.g. estimation), use the folders provided in the release as the source of the intermediate inputs. Files within a subsection can be run in any order.
 
 ### 1. Generate simulation data
 
